@@ -6,6 +6,6 @@
 <section class="row">
   <article class="column">
       <h2><%= @teeny_str %>
-      <!-- <%= button("hello", to: "/game", method: :post, class: "btn") %> -->
+      <%= button("hello", to: "/", method: :get, class: "btn") %>
   </article>
 </section>
