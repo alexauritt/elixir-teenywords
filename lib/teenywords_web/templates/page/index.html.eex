@@ -5,7 +5,9 @@
 
 <section class="row">
   <article class="column">
-      <h2><%= @teeny_str %>
+      <h2><%= @teeny_str %></h2>
+      <h3>Real word: <%= @is_word %></h3>
+
       <%= button("hello", to: "/", method: :get, class: "btn") %>
   </article>
 </section>
