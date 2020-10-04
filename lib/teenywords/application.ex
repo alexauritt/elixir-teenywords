@@ -8,7 +8,7 @@ defmodule Teenywords.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      Teenywords.Repo,
+      # Teenywords.Repo,
       # Start the Telemetry supervisor
       TeenywordsWeb.Telemetry,
       # Start the PubSub system
