@@ -17,7 +17,7 @@ defmodule TeenywordsWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    resources "/game", GameController, only: [:show, :create]
+    # resources "/game", GameController, only: [:show, :create]
   end
 
   # Other scopes may use custom stacks.

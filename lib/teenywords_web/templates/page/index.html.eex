@@ -5,6 +5,7 @@
 
 <section class="row">
   <article class="column">
-      <%= button("hello", to: "/game", method: :post, class: "btn") %>
+      <h2><%= @teeny_str %>
+      <!-- <%= button("hello", to: "/game", method: :post, class: "btn") %> -->
   </article>
 </section>
